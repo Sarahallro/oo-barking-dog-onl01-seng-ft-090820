@@ -9,3 +9,13 @@ class Dog
     puts this_is_the_name
   end
 end
+
+
+fido = Dog.new
+fido.name = "Fido"
+ 
+fido.name
+# => "Fido"
+ 
+fido.bark
+woof!
